@@ -38,12 +38,12 @@ const Ricky = () => {
                 <li><b>Residents:</b> {rickyList.residents?.length}</li>
                 <input
                     type="text"
-                    value={`${typeId}Input Id`} 
+                    value={typeId} 
                     onChange={(e) => setTypeId(e.target.value)}
                 />
                 <button onClick={searchType}>Seacrh</button>
                 <div className=''>
-                    <div className='contenedor' >
+                    <div className='container-card' >
 
 
                         {rickyList.residents?.map(personaje => (

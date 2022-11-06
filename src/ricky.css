@@ -1,24 +1,6 @@
-.container {
-    min-width: 50px;
-
-    /* display: flex; */
-    flex-wrap: wrap;
-    background: rgb(90, 7, 90);
-    padding: 2%;
-
-    
-
-}
 .align {
     display: flex;
-    flex-wrap: wrap ;
-    /* padding: 4%;
-    
-    flex-grow: 2;
-    flex-basis: 25%; */
-    
-
-    
+    flex-wrap: wrap ;   
 }
 
 ul li {
@@ -33,14 +15,10 @@ ul li {
     box-shadow: 2px 2px 2px 8px rgb(0, 0, 0, .3);
 
 
-
     border-radius: 10px;
     
     margin-bottom: 20px;
 
-
-
-    /* alineamiento de cards */
     padding: 2%;
     
     flex-grow: 0;
@@ -105,7 +83,7 @@ li {
 }
 
 /* cards */
-.contenedor {
+.container-card {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
