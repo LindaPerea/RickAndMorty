@@ -1,0 +1,68 @@
+.container {
+    min-width: 50px;
+
+    /* display: flex; */
+    flex-wrap: wrap;
+    background: rgb(90, 7, 90);
+    padding: 2%;
+
+    
+
+}
+.align {
+    padding: 4%;
+    
+    flex-grow: 2;
+    flex-basis: 25%;
+    
+
+    
+}
+
+ul li {
+
+    list-style: none;
+}
+
+.user-card {
+
+    background: greenyellow;
+    width: fit-content;
+    box-shadow: 2px 2px 2px 8px rgb(0, 0, 0, .3);
+
+
+
+    border-radius: 10px;
+    
+    margin-bottom: 20px;
+
+
+
+    /* alineamiento de cards */
+    padding: 2%;
+    
+    flex-grow: 0;
+    flex-basis: 16%;
+   
+
+}
+
+
+
+.card {
+    padding-top: 5px;
+    min-width: 200px;
+    background: rgb(14, 1, 14);
+
+    
+    
+}
+
+
+
+.li {
+    list-style: none;
+
+}
+
+
