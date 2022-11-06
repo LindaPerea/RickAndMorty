@@ -15,7 +15,7 @@ function App() {
   const [info, setInfo ] = useState({});
 
   const onPrevius = () => {
-    {info.previus};
+    {info.prev};
   }
 
   const onNext = () => {
@@ -38,7 +38,7 @@ function App() {
         <Paginacion prev={info.prev} next={info.next} onPrevius={onPrevius} onNext={onNext}/>
       </div>
 
-      <div className='container mt-5'>
+      <div className=''>
 
         <Ricky />
 

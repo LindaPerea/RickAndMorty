@@ -29,35 +29,37 @@ const Ricky = () => {
 
 
     return (
-        <div className='text-center '>
+        <>
+            <div className='text-center '>
 
-            <h1>{rickyList.name}</h1>
-            <li><b>Type:</b> {rickyList.type}</li>
-            <li><b>Dimension:</b> {rickyList.dimension}</li>
-            <li><b>Residents:</b> {rickyList.residents?.length}</li>
-            <input
-                type="text"
-                value={typeId}
-                onChange={(e) => setTypeId(e.target.value)}
-            />
-            <button onClick={searchType}>Seacrh</button>
-            <div className=''>
-                <div className='' >
-                    
+                <h1>{rickyList.name}</h1>
+                <li><b>Type:</b> {rickyList.type}</li>
+                <li><b>Dimension:</b> {rickyList.dimension}</li>
+                <li><b>Residents:</b> {rickyList.residents?.length}</li>
+                <input
+                    type="text"
+                    value={`${typeId}Input Id`} 
+                    onChange={(e) => setTypeId(e.target.value)}
+                />
+                <button onClick={searchType}>Seacrh</button>
+                <div className=''>
+                    <div className='contenedor' >
+
 
                         {rickyList.residents?.map(personaje => (
 
-                            <RickyItem url={personaje} key={personaje} />
+                            <div className='hola'><RickyItem url={personaje} key={personaje} /></div>
 
 
                         ))}
-                    
+
+
+                    </div>
 
                 </div>
 
             </div>
-
-        </div>
+        </>
     );
 };
 
